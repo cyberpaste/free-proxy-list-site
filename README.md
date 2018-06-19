@@ -16,10 +16,10 @@ Json интерфейс для получения прокси.
 ```
 3) Создать cron команды:
   ```bash 
-   curl --insecure 'https://yoursite.com/check' > /dev/null >/dev/null 2>&1     */1	*	*	*	*
+   curl --insecure 'https://free-proxy-list-site.com/check' > /dev/null >/dev/null 2>&1     */1	*	*	*	*
    ```
   ```bash 
-   curl --insecure 'https://yoursite.com/add' > /dev/null >/dev/null 2>&1     1	    23	*	*   * 
+   curl --insecure 'https://free-proxy-list-site.com/add' > /dev/null >/dev/null 2>&1     1	    23	*	*   * 
   ```
   
   
