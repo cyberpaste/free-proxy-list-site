@@ -12,11 +12,9 @@ Json интерфейс для получения прокси.
 1) Отредактировать  /.env
 2) Выполнить команду php artisan migrate
 3) Создать cron команды:
-  а) 
   ```bash 
    curl --insecure 'https://yoursite.com/check' > /dev/null >/dev/null 2>&1     */1	*	*	*	*
    ```
-  б) 
   ```bash 
    curl --insecure 'https://yoursite.com/add' > /dev/null >/dev/null 2>&1     1	    23	*	*   * 
   ```
