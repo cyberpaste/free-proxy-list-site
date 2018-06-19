@@ -8,7 +8,10 @@ Cron для запуска заданий, UI kit (Bootstrap 3)
 Json интерфейс для получения прокси.
 
 ## Установка
-
+0) Установить Laravel
+```bash 
+composer create-project laravel/laravel
+```
 1) Отредактировать  /.env
 2) Выполнить команду 
 ```bash  
