@@ -10,7 +10,10 @@ Json интерфейс для получения прокси.
 ## Установка
 
 1) Отредактировать  /.env
-2) Выполнить команду php artisan migrate
+2) Выполнить команду 
+```bash  
+ php artisan migrate
+```
 3) Создать cron команды:
   ```bash 
    curl --insecure 'https://yoursite.com/check' > /dev/null >/dev/null 2>&1     */1	*	*	*	*
