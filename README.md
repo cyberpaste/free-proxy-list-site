@@ -8,16 +8,17 @@ Cron для запуска заданий, UI kit (Bootstrap 3)
 Json интерфейс для получения прокси.
 
 ## Установка
-0) Установить Laravel
+1) Установить Laravel
 ```bash 
 composer create-project laravel/laravel
 ```
-1) Отредактировать  /.env
-2) Выполнить команду 
+2) Загрузить файлы из этого репозитория в папку с проектом
+3) Отредактировать  /.env
+4) Выполнить команду в консоли
 ```bash  
  php artisan migrate
 ```
-3) Создать cron команды:
+5) Создать cron команды:
   ```bash 
    curl --insecure 'https://free-proxy-list-site.com/check' > /dev/null >/dev/null 2>&1     */1	*	*	*	*
    ```
